@@ -1,0 +1,25 @@
+{
+    "name": "rescript-fresh",
+    "sources": [
+        {
+            "dir": "bindings",
+            "subdirs": true
+        }
+    ],
+    "package-specs": [
+        {
+            "module": "esmodule",
+            "in-source": true
+        }
+    ],
+    "suffix": ".js",
+    "jsx": {
+        "module": "preact"
+    },
+    "bs-dependencies": [
+        "@rescript/webapi"
+    ],
+    "bsc-flags": [
+        "-open WebAPI.Global"
+    ]
+}

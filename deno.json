@@ -1,0 +1,18 @@
+{
+    "$schema": "https://deno.land/x/deno/cli/schemas/config-file.v1.json",
+    "imports": {
+        "rescript": "npm:rescript@next",
+        "@rescript/webapi": "npm:@rescript/webapi@experimental"
+    },
+    "tasks": {
+        "res:dev": "rescript -w",
+        "res:build": "rescript",
+        "res:clean": "rescript clean"
+    },
+    "exclude": [
+        "lib",
+        "node_modules",
+        "example"
+    ],
+    "nodeModulesDir": "auto"
+}

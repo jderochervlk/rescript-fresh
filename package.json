@@ -1,0 +1,14 @@
+{
+    "name": "@jvlk/rescript-fresh",
+    "license": "MIT",
+    "version": "0.1.0",
+    "tags": [
+        "rescript",
+        "deno",
+        "fresh"
+    ],
+    "files": [
+        "rescript.json",
+        "/bindings"
+    ]
+}
