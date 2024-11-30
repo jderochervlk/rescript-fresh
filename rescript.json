@@ -1,5 +1,5 @@
 {
-    "name": "rescript-fresh",
+    "name": "@jvlk/rescript-fresh",
     "sources": [
         {
             "dir": "bindings",

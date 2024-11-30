@@ -58,3 +58,50 @@ module Elements = {
 
   external someElement: element => option<element> = "%identity"
 }
+
+module Context = {
+  type t<'context>
+
+  type props<'context> = {
+    value: 'context,
+    children: element,
+  }
+
+  @get
+  external provider: t<'context> => component<props<'context>> = "Provider"
+}
+
+@module("preact")
+external createContext: 'a => Context.t<'a> = "createContext"
+
+@module("preact/hooks")
+external useState: (@uncurry (unit => 'state)) => ('state, ('state => 'state) => unit) = "useState"
+
+@module("preact/hooks")
+external useReducer: (@uncurry ('state, 'action) => 'state, 'state) => ('state, 'action => unit) =
+  "useReducer"
+
+@module("preact/hooks")
+external useMemo: (@uncurry (unit => 'any), 'deps) => 'any = "useMemo"
+
+@module("preact/hooks")
+external useCallback: ('f, 'deps) => 'f = "useCallback"
+
+@module("preact/hooks")
+external useRef: 'value => ref<'value> = "useRef"
+
+@module("preact/hooks")
+external useContext: Context.t<'any> => 'any = "useContext"
+
+@module("preact/hooks")
+external useEffect: (@uncurry (unit => option<unit => unit>), 'deps) => unit = "useEffect"
+
+@module("preact/hooks")
+external useLayoutEffect: (@uncurry (unit => option<unit => unit>), 'deps) => unit =
+  "useLayoutEffect"
+
+@module("preact/hooks")
+external useErrorBoundary: (Error.t => unit) => (Error.t, unit => unit) = "useErrorBoundary"
+
+@module("preact/hooks")
+external useId: unit => string = "useId"
