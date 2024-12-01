@@ -1,14 +1,19 @@
 {
     "name": "@jvlk/rescript-fresh",
     "license": "MIT",
-    "version": "0.3.0",
-    "tags": [
+    "version": "0.5.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jderochervlk/rescript-fresh"
+    },
+    "keywords": [
         "rescript",
         "deno",
         "fresh"
     ],
     "files": [
         "rescript.json",
-        "/bindings"
+        "/bindings",
+        "README.md"
     ]
 }
