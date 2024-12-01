@@ -2,7 +2,7 @@
 ReScript bindings and utils for [Fresh](https://fresh.deno.dev/).
 
 ## Getting started
-You can clone this [example repo](https://github.com/jderochervlk/rescript-fresh-example) to get started. It's the same thing you get by creating a new Fresh app, just set up to use ReScript.
+You can use this [starter repo](https://github.com/jderochervlk/rescript-fresh-starter) as a template. It's the same thing you get by creating a new Fresh app, just set up to use ReScript.
 
 ### Adding ReScript to an existing Fresh app
 #### Create a ReScript config file
