@@ -1,6 +1,8 @@
 # @jvlk/rescript-fresh
 ReScript bindings and utils for [Fresh](https://fresh.deno.dev/).
 
+Read the [docs](https://joshderoche-rescript-fr-52.deno.dev/).
+
 ## Getting started
 You can use this [starter repo](https://github.com/jderochervlk/rescript-fresh-starter) as a template. It's the same thing you get by creating a new Fresh app, just set up to use ReScript.
 
