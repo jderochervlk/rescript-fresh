@@ -39,7 +39,12 @@ module Elements = {
   A base that the React JSX transform uses is provided via JsxDOM.domProps, 
   but you can make this anything. The editor tooling will support 
   autocompletion etc for your specific type. */
-  type props = {...JsxDOM.domProps, class?: string, charset?: string}
+  type props = {
+    ...JsxDOM.domProps,
+    class?: string,
+    charset?: string,
+    @as("f-client-nav") fClientNav?: bool,
+  }
 
   @module("preact")
   external jsx: (string, props) => Jsx.element = "h"

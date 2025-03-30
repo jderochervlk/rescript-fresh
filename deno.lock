@@ -1,19 +1,19 @@
 {
   "version": "4",
   "specifiers": {
-    "npm:@rescript/webapi@experimental": "0.1.0-experimental-e13fb00",
-    "npm:rescript@12.0.0-alpha.5": "12.0.0-alpha.5",
-    "npm:rescript@next": "12.0.0-alpha.5"
+    "npm:@rescript/webapi@experimental": "0.1.0-experimental-390e51f",
+    "npm:rescript@12.0.0-alpha.9": "12.0.0-alpha.9",
+    "npm:rescript@next": "12.0.0-alpha.9"
   },
   "npm": {
-    "@rescript/webapi@0.1.0-experimental-e13fb00": {
-      "integrity": "sha512-nb83WHP/8iLYaj947js38Z84UPMAoeGEZ4VymUHYHGVukdjh07baP0s0O/tjhFNdgtMKOzVvYOvj3XU0cqkk5Q==",
+    "@rescript/webapi@0.1.0-experimental-390e51f": {
+      "integrity": "sha512-p5r2swh9vqcHAVOaBdWxaTcfUmL9fL+u6QnqKfKyLLHH4sBdYE88543zzBxEM80LuvBofDOsECJw+5fstV1w/w==",
       "dependencies": [
         "rescript"
       ]
     },
-    "rescript@12.0.0-alpha.5": {
-      "integrity": "sha512-s2GGg9fkoiDBiP0uuJ1RRG5NBq+SkGqxMEmt32q9tTJoueL7bfU/9Jj3UgSwFFNdehuns1taAOvP2DV4IE+R9A=="
+    "rescript@12.0.0-alpha.9": {
+      "integrity": "sha512-h1RHv3AGge/td+4s3mufCyJkBQ+/OcQtu3RyvQjR0c3SZJNB87G/0LESoa7FLlKokwjtX+fpcIoQP9WK2PDAqQ=="
     }
   },
   "workspace": {
