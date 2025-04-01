@@ -44,7 +44,7 @@ module Elements = {
     class?: string,
     charset?: string,
     \"for"?: string,
-    fetchPriority: [#high | #low | #auto],
+    fetchPriority?: [#high | #low | #auto],
     @as("f-client-nav") fClientNav?: bool,
   }
 
