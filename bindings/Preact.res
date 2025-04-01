@@ -43,6 +43,7 @@ module Elements = {
     ...JsxDOM.domProps,
     class?: string,
     charset?: string,
+    \"for"?: string,
     @as("f-client-nav") fClientNav?: bool,
   }
 
